@@ -1,0 +1,15 @@
+<api>
+  <jcw-types>
+    <type name="MainActivity" package="crc64fbdd86eebae9abe5" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="crc6488302ad6e9e4df1a.MauiAppCompatActivity" partial_assembly_qualified_name="AppLibertadoresHAS.MainActivity, AppLibertadoresHAS">
+      <constructors>
+        <constructor name="MainActivity" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+        <constructor name="MainActivity" method="n_.ctor:(I)V:" jni_signature="(I)V" managed_parameters="System.Int32, System.Private.CoreLib" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+    </type>
+    <type name="MainApplication" package="crc64fbdd86eebae9abe5" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="crc6488302ad6e9e4df1a.MauiApplication" is_application="True" partial_assembly_qualified_name="AppLibertadoresHAS.MainApplication, AppLibertadoresHAS" application_constructor="MainApplication" />
+  </jcw-types>
+  <acw-types partial-assembly-name="AppLibertadoresHAS" module-name="AppLibertadoresHAS.dll">
+    <type assembly-qualified-name="AppLibertadoresHAS.MainActivity, AppLibertadoresHAS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="applibertadoreshas.MainActivity" java-key="crc64fbdd86eebae9abe5.MainActivity" managed-key="AppLibertadoresHAS.MainActivity" partial-assembly-qualified-name="AppLibertadoresHAS.MainActivity, AppLibertadoresHAS" />
+    <type assembly-qualified-name="AppLibertadoresHAS.MainApplication, AppLibertadoresHAS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="applibertadoreshas.MainApplication" java-key="crc64fbdd86eebae9abe5.MainApplication" managed-key="AppLibertadoresHAS.MainApplication" partial-assembly-qualified-name="AppLibertadoresHAS.MainApplication, AppLibertadoresHAS" />
+  </acw-types>
+</api>
