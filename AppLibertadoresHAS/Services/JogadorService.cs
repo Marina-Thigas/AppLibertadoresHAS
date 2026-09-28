@@ -11,8 +11,10 @@ namespace AppLibertadoresHAS.Services
         private readonly Request _request;
         private const string _apiUrlBase = "https://apilibertadores-luiz-hzhucrffc5b2hqa2.mexicocentral-01.azurewebsites.net/Jogadores";
 
-        public JogadorService()
+        private string _token = string.Empty;
+        public JogadorService(String token)
         {
+            _token = Preferences.Get("UsuarioToken", string.Empty);
             _request = new Request();
         }
 

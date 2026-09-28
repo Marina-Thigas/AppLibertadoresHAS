@@ -77,6 +77,16 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
+[D:/MarinaThiago3AI/PAM-II/2semestre/AppLibertadoresHAS/AppLibertadoresHAS/AppLibertadoresHAS/Views/Jogadores/ListagemJogadorView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppLibertadoresHAS.Views.Jogadores.ListagemJogadorView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Jogadores\ListagemJogadorView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Jogadores\ListagemJogadorView.xaml
+build_metadata.AdditionalFiles.Inflator = SourceGen
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
 [D:/MarinaThiago3AI/PAM-II/2semestre/AppLibertadoresHAS/AppLibertadoresHAS/AppLibertadoresHAS/Views/LoginView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppLibertadoresHAS.Views.LoginView.xaml

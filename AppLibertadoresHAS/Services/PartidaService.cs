@@ -22,7 +22,7 @@ namespace AppLibertadoresHAS.Services
         //ctor + TAB: Atalhos para criar construtor
         public PartidaService(string token)
         {
-            _token = token;
+            _token = Preferences.Get("UsuarioToken", string.Empty);
             _request = new Request();
         }
 
