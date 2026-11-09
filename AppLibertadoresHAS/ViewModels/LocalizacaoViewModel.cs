@@ -79,7 +79,7 @@ namespace AppLibertadoresHAS.ViewModels
                 uLoc.Id = Preferences.Get("UsuarioId", 0);
                 uLoc.Latitude = location.Latitude;
                 uLoc.Longitude = location.Longitude;
-
+                // Marina e Thiago
                 await uService.PutAtualizarLocalizacaoAsync(uLoc);
             }
             catch (Exception ex)
