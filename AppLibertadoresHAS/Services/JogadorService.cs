@@ -23,7 +23,7 @@ namespace AppLibertadoresHAS.Services
             string urlComplementar = string.Format("{0}", "/GetAll");
 
             ObservableCollection<Jogador> lista =
-                await _request.GetAsync<ObservableCollection<Jogador>>(_apiUrlBase + urlComplementar, string.Empty);
+                await _request.GetAsync<ObservableCollection<Jogador>>(_apiUrlBase + urlComplementar, _token);
 
             return lista;
         }
@@ -32,7 +32,7 @@ namespace AppLibertadoresHAS.Services
         {
             string urlComplementar = $"/{id}";
 
-            Jogador jogador = await _request.GetAsync<Jogador>(_apiUrlBase + urlComplementar, string.Empty);
+            Jogador jogador = await _request.GetAsync<Jogador>(_apiUrlBase + urlComplementar, _token);
 
             return jogador;
         }

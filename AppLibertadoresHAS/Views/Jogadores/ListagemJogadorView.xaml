@@ -10,7 +10,8 @@
                     <DataTemplate>
                         <Border Margin="5" Padding="10" BackgroundColor="LightGray">
                             <VerticalStackLayout Spacing="8">
-                                <Label Text="{Binding Nome}"></Label>
+                                <Label FontSize="16" Text="{Binding Nome}"></Label>
+                                <Label FontSize="16" Text="{Binding Numero, StringFormat='Número: {0}'}"></Label>
                             </VerticalStackLayout>
                         </Border>
                     </DataTemplate>

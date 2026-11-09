@@ -22,11 +22,18 @@ namespace AppLibertadoresHAS.ViewModels
             Jogadores = new ObservableCollection<Jogador>();
             _ = ObterJogadores();
         }
-        public async Task<ObservableCollection<Jogador>> ObterJogadores()
+        public async Task ObterJogadores()
         {
-            Jogadores = await _jogadorService.GetJogadoresAsync();
-            OnPropertyChanged(nameof(Jogadores));
-            return Jogadores;
+            try
+            {
+                Jogadores = await _jogadorService.GetJogadoresAsync();
+                OnPropertyChanged(nameof(Jogadores));
+            }
+            catch (Exception ex)
+            {
+                await Application.Current.MainPage
+                    .DisplayAlertAsync("Ops", ex.Message, "Detalhes" + ex.InnerException, "Ok");
+            }
         }
     }
 }

@@ -1,10 +1,10 @@
-<api type="debug" assembly-name="AppLibertadoresHAS" mvid="bfbd9be9ac024e16a1873b8b4b8f600b">
+<api type="debug" assembly-name="AppLibertadoresHAS" mvid="0a5e083892e2458da64669b61935295f">
   <java-to-managed>
-    <entry java-name="crc64fbdd86eebae9abe5/MainActivity" managed-name="AppLibertadoresHAS.MainActivity, AppLibertadoresHAS" managed-type-token-id="33554441" />
-    <entry java-name="crc64fbdd86eebae9abe5/MainApplication" managed-name="AppLibertadoresHAS.MainApplication, AppLibertadoresHAS" managed-type-token-id="33554442" />
+    <entry java-name="crc64fbdd86eebae9abe5/MainActivity" managed-name="AppLibertadoresHAS.MainActivity, AppLibertadoresHAS" managed-type-token-id="33554442" />
+    <entry java-name="crc64fbdd86eebae9abe5/MainApplication" managed-name="AppLibertadoresHAS.MainApplication, AppLibertadoresHAS" managed-type-token-id="33554443" />
   </java-to-managed>
   <managed-to-java>
-    <entry java-name="crc64fbdd86eebae9abe5/MainActivity" managed-name="AppLibertadoresHAS.MainActivity, AppLibertadoresHAS" managed-type-token-id="33554441" />
-    <entry java-name="crc64fbdd86eebae9abe5/MainApplication" managed-name="AppLibertadoresHAS.MainApplication, AppLibertadoresHAS" managed-type-token-id="33554442" />
+    <entry java-name="crc64fbdd86eebae9abe5/MainActivity" managed-name="AppLibertadoresHAS.MainActivity, AppLibertadoresHAS" managed-type-token-id="33554442" />
+    <entry java-name="crc64fbdd86eebae9abe5/MainApplication" managed-name="AppLibertadoresHAS.MainApplication, AppLibertadoresHAS" managed-type-token-id="33554443" />
   </managed-to-java>
 </api>
